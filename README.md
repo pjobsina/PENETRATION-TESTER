@@ -3,5 +3,7 @@
 ### This is my guide for my Penetration Testing Skills </br>
 ### I will update this everyday!</br>
 ### You can open all files from [Obsidian](https://github.com/obsidianmd)</br>
+### [SETUP OBSIDIAN GIT](https://forum.obsidian.md/t/the-easiest-way-to-setup-obsidian-git-to-backup-notes/51429)
+
 
 
