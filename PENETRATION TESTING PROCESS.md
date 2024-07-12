@@ -1,4 +1,4 @@
-![[penetration-testing-process.png]]
+![penetration-testing-process.png](https://github.com/pjobsina/PENETRATION-TESTER/blob/b57e19f7a01c956a5b96ddc591a8789d4583641b/Images/penetration-testing-process.png)
 # Pre-Engagement
 Pre-engagement is the stage of preparation for the actual penetration test. During this stage, many questions are asked, and some contractual agreements are made. The client informs us about what they want to be tested, and we explain in detail how to make the test as efficient as possible.
 The entire pre-engagement process consists of three essential components:
