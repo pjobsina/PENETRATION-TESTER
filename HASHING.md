@@ -347,6 +347,9 @@ hashcat -a 0 -m 10500 pdf_hash /home/kali/Desktop/SecLists/Passwords/Leaked-Data
 ```
 # Cracking Wireless (WPA/WPA2) Handshakes with Hashcat
 ## Cracking MIC
+#### Online Tool
+https://hashcat.net/cap2hashcat
+#### Offline Tool
 #### Hashcat-Utils
 ```shell
 git clone https://github.com/hashcat/hashcat-utils.git
@@ -366,6 +369,13 @@ make
 hashcat -a 0 -m 22000 mic_to_crack.hccapx /home/kali/Desktop/SecLists/Passwords/Leaked-Databases/rockyou.txt
 ```
 ## Cracking PMKID
+### Hcxpcaptool
+```bash
+git clone https://github.com/ZerBea/hcxtools
+cd hcxtools
+sudo make -j $(nproc)
+sudo make install
+```
 #### Hcxpcaptool - Extract PMKID
 ```shell
 hcxpcaptool -z pmkidhash_corp cracking_pmkid.cap 
@@ -376,7 +386,7 @@ cat pmkidhash_corp
 ```
 #### Hashcat - Cracking PMKID
 ```shell
-hashcat -a 0 -m 22000 pmkidhash_corp /opt/useful/SecLists/Passwords/Leaked-Databases/rockyou.txt
+hashcat -a 0 -m 22000 pmkidhash_corp /home/kali/Desktop/SecLists/Passwords/Leaked-Databases/rockyou.txt
 ```
 #### Hcxtools
 ```shell
