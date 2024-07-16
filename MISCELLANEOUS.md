@@ -33,5 +33,5 @@ sudo nc -nlvp <PORT>
 ```
 # PYTHON WEBSERVER
 ```python
-python3 -m http.server 8001
+python3 -m http.server 8000
 ```
