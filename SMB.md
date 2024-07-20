@@ -8,10 +8,6 @@ smbclient \\\\<IP>\\users
 ```
 
 ```smb
-smbclient -U <user> \\\\<IP>\\users
-```
-
-```smb
 smbclient -U <user> \\\\<IP>\\<sharename>
 ```
 ## SMB Downloads
