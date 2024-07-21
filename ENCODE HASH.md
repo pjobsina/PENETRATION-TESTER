@@ -1,4 +1,4 @@
-###### ==**BASE64**==
+# ==**BASE64**==
 **Encode**
 ```
 echo https://www.hackthebox.eu/ | base64
@@ -7,7 +7,7 @@ echo https://www.hackthebox.eu/ | base64
 ```
 echo aHR0cHM6Ly93d3cuaGFja3RoZWJveC5ldS8K | base64 -d
 ```
-###### **HEX**
+# **HEX**
 **Encode**
 ```
 echo https://www.hackthebox.eu/ | xxd -p
@@ -16,7 +16,7 @@ echo https://www.hackthebox.eu/ | xxd -p
 ```
 echo 68747470733a2f2f7777772e6861636b746865626f782e65752f0a | xxd -p -r
 ```
-###### **ROT13** 
+# **ROT13** 
 **Encode**
 ```
 echo https://www.hackthebox.eu/ | tr 'A-Za-z' 'N-ZA-Mn-za-m'
@@ -25,7 +25,7 @@ echo https://www.hackthebox.eu/ | tr 'A-Za-z' 'N-ZA-Mn-za-m'
 ```
 echo uggcf://jjj.unpxgurobk.rh/ | tr 'A-Za-z' 'N-ZA-Mn-za-m'
 ```
-###### **CYPHER**
+# **CYPHER**
 ```
 https://www.boxentriq.com/code-breaking/cipher-identifier
 ```
