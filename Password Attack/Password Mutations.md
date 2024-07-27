@@ -1,6 +1,6 @@
 #### Generating Rule-based Wordlist
 ```shell
-hashcat --force password.list -r custom.rule --stdout | sort -u > mut_password.list
+hashcat password.list -r custom.rule --stdout | sort -u > mut_password.list
 ```
 #### Generating Wordlists Using CeWL
 ```shell
