@@ -1,3 +1,10 @@
+```
+ssh username@<IP>
+```
+```
+ssh -i /path/to/id_rsa username@remote_ip
+```
+
 ## SSH Downloads
 #### Enabling the SSH Server
 ```shell
