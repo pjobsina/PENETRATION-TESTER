@@ -2,7 +2,7 @@ The [File Transfer Protocol](https://en.wikipedia.org/wiki/File_Transfer_Protoco
 # Enumeration
 #### Nmap
 ```shell
-sudo nmap -sC -sV -p 21 192.168.2.142 
+sudo nmap -sC -sV -p 21 192.168.2.142
 ```
 #### Anonymous Authentication
 ```shell
