@@ -1,7 +1,24 @@
 ```ftp
 ftp -p <IP>
 ```
+#### Anonymous Login
+```shell
+ftp 10.129.14.136
+```
+```ftp
+anonymous
+passive
+ls
+```
+#### TSL/SSL encryption
+```shell
+openssl s_client -connect 10.129.14.136:21 -starttls ftp
+```
 ## FTP Downloads
+#### Download All Available Files
+```shell
+wget -m --no-passive ftp://anonymous:anonymous@10.129.14.136
+```
 #### pyftpdlib
 ```shell
 sudo pip3 install pyftpdlib
