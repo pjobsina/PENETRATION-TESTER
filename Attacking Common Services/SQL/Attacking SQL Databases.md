@@ -158,7 +158,7 @@ go
 ```
 #### Impersonating the SA User
 ```cmd
-EXECUTE AS LOGIN = 'sa'
+EXECUTE AS LOGIN = 'john'
 SELECT SYSTEM_USER
 SELECT IS_SRVROLEMEMBER('sysadmin')
 GO

