@@ -28,5 +28,5 @@ proxychains firefox-esr 172.16.5.135:80
 ```
 #### Connecting to a Web Server using HTTP-Proxy & NTLM Auth
 ```shell
-python3 client.py --server-ip <IPaddressofTargetWebServer> --server-port 8080 --ntlm-proxy-ip <IPaddressofProxy> --ntlm-proxy-port 8081 --domain <nameofWindowsDomain> --username <username> --password <password>
+python2.7 client.py --server-ip <IPaddressofTargetWebServer> --server-port 8080 --ntlm-proxy-ip <IPaddressofProxy> --ntlm-proxy-port 8081 --domain <nameofWindowsDomain> --username <username> --password <password>
 ```
